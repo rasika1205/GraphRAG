@@ -1,6 +1,6 @@
 # GraphRAG
 
-**GraphRAG** is a Flask-based API application that translates natural language queries into Cypher queries and executes them on a Neo4j graph database. It leverages Google Gemini for natural language understanding and supports cross-origin requests for easy frontend integration.
+GraphRAG is a Flask-based API that bridges natural language queries with Neo4j graph databases by automatically translating plain English into Cypher queries. It leverages Google Gemini for natural language understanding and provides a developer-friendly REST API with CORS support for frontend integration.
 
 ---
 
@@ -23,7 +23,7 @@
 10. [Acknowledgments](#acknowledgments)
 
 ---
-## Features
+## ✨Features
 
 - **Natural Language to Cypher:** Converts user-friendly questions into Cypher queries using Google Gemini.
 - **Neo4j Integration:** Connects seamlessly to a Neo4j Aura instance or self-hosted database.
@@ -83,7 +83,7 @@
 
    The API will be accessible at `http://localhost:5000/`.
 
-## API Endpoints
+## 📡 API Endpoints
 
 ### `GET /`
 
@@ -121,7 +121,7 @@ Submit a natural language query.
 - `(Person)-[:LIKES]->(Movie)`
 - `(Movie { title: 'string', year: 'int' })`
 
-## Demo
+## 🖼 Demo
 <img width="1460" height="911" alt="Screenshot 2025-08-19 204347" src="https://github.com/user-attachments/assets/957e1dbf-fb73-474c-a149-a812ffb2db31" />
 <img width="1616" height="911" alt="Screenshot 2025-08-19 204303" src="https://github.com/user-attachments/assets/311460aa-45d1-4add-9297-2b1a872ba47b" />
 
