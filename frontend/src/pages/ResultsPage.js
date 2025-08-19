@@ -132,9 +132,6 @@ export default function ResultsPage() {
               <CheckCircle className="w-5 h-5 text-primary" />
               Query Results
             </CardTitle>
-            <br></br>
-            
-            {/* <CardDescription>Found {results.length} matching records in your Neo4j database</CardDescription> */}
           </CardHeader>
           <CardContent>
             <p className="text-muted-foreground">Found {results.length} matching records in your Neo4j database</p>
@@ -155,36 +152,7 @@ export default function ResultsPage() {
                       </div>
                     </div>
 
-                    {/* <div className="grid md:grid-cols-2 gap-4">
-                      <div>
-                        <h4 className="font-medium mb-2 text-sm text-muted-foreground">Properties</h4>
-                        <div className="space-y-1">
-                          {Object.entries(result.properties || {}).map(([key, value]) => (
-                            <div key={key} className="flex justify-between text-sm">
-                              <span className="text-muted-foreground capitalize">{key}:</span>
-                              <span className="font-medium">
-                                {typeof value === "number" && key.includes("Spent")
-                                  ? `$${value.toFixed(2)}`
-                                  : String(value)}
-                              </span>
-                            </div>
-                          ))}
-                        </div>
-                      </div>
-
-                      {result.relationships && (
-                        <div>
-                          <h4 className="font-medium mb-2 text-sm text-muted-foreground">Relationships</h4>
-                          <div className="flex flex-wrap gap-1">
-                            {result.relationships.map((rel) => (
-                              <Badge key={rel} variant="outline" className="text-xs">
-                                {rel}
-                              </Badge>
-                            ))}
-                          </div>
-                        </div>
-                      )}
-                    </div> */}
+                    
                   </CardContent>
                 </Card>
               ))}
