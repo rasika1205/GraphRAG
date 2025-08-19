@@ -1,6 +1,6 @@
 # GraphRAG
 
-GraphRAG is a Flask-based API that bridges natural language queries with Neo4j graph databases by automatically translating plain English into Cypher queries. It leverages Google Gemini for natural language understanding and provides a developer-friendly REST API with CORS support for frontend integration.
+**GraphRAG** is a Flask-based API that bridges natural language queries with Neo4j graph databases by automatically translating plain English into Cypher queries. It leverages Google Gemini for natural language understanding and provides a developer-friendly REST API with CORS support for frontend integration.
 
 ---
 
